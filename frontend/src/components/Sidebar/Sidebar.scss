@@ -1,0 +1,47 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 100%;
+  z-index: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: -80px 0 0 0;
+
+    li {
+      margin: 20px 0;
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 5px;
+        width: 64px;
+        height: 64px;
+
+        img {
+            width: 32px;
+            height: 32px;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    position: absolute;
+    bottom: 50px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    color: white;
+    font-size: 12px;
+  }
+}
