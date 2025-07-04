@@ -1,0 +1,35 @@
+.activity-chart {
+  background: #fbfbfb;
+  border-radius: 5px;
+  padding: 20px 40px 20px 60px;
+
+  .header-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    h2 {
+      font-size: 1.6em;
+      color: #20253A;
+    }
+
+    .legend-right {
+      display: flex;
+      gap: 20px;
+      font-size: 14px;
+      color: #74798C;
+
+      .dot {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        margin-right: 8px;
+
+        &.black { background: #282D30; }
+        &.red { background: #E60000; }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.user-dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  .dashboard-main {
+    display: flex;
+    margin-top: -30px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
