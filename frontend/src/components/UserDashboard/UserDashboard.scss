@@ -51,5 +51,32 @@
         width: 100%;
       }
     }
+
+    .dashboard-right {
+      width: 18%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      @media screen and (max-width: 1024px) {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        justify-content: space-between;
+
+        .heal-card {
+          width: 48%;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+
+        .heal-card {
+          width: 100%;
+        }
+      }
+    }
   }
 }

@@ -12,3 +12,9 @@ body {
   margin-left: 160px; 
   padding: 20px;
 }
+
+@media screen and (max-width: 1024px) {
+  .content {
+    margin-left: 100px;
+  }
+}

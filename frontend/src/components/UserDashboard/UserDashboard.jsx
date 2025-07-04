@@ -1,3 +1,4 @@
+import Heal from "../Heal/Heal";
 import Time from "../Time/Time";
 import Score from "../Score/Score";
 import Graph from "../Graph/Graph";
@@ -18,6 +19,9 @@ function UserDashboard() {
             <Graph />
             <Score />
           </div>
+        </div>
+        <div className="dashboard-right">
+          <Heal />
         </div>
       </div>
     </div>
