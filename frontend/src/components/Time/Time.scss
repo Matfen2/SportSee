@@ -1,0 +1,26 @@
+.time-chart {
+  background: #ff0000;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+  @media screen and (max-width: 768px) {
+    height: 100px;
+  }
+
+  h2 {
+    font-size: 15px;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 20px;
+  }
+
+  .tooltip {
+    color: black;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    background-color: #ff0000;
+  }
+}
